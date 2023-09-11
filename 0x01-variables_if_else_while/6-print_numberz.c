@@ -5,10 +5,12 @@
  */
 int main(void)
 {
-	int i;
-	for(i=48,i<58,i++)
+	int alphabets = 0;
+
+	while (alphabets <= 0)
 	{
-		putchar(i);
+		putchar(alphabets);
+		alphabets++;
 	}
 	putchar('\n');
 	return (0);
