@@ -6,14 +6,17 @@
  */
 int main(void)
 {
-	int i;
-	for (i = 48; i < 58; i++)
+	char numbers = '0';
+	char letters = 'a';
+
+	while (numbers <= '9')
 	{
-		putchar(i);
+		putchar(numbers);
+		numbers++;
 	}
-	for (i = 97; i < 103; i++)
-	{
-		putchar(i);
+	while (letters <= 'f')
+	{putchar(letters);
+	letters++;
 	}
 	putchar('\n');
 	return (0);
